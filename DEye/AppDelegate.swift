@@ -8,6 +8,10 @@
 
 import UIKit
 
+let cognitoAccountId: String = "291115927752"
+let identityPoolId: String = "us-east-1:f8c974bb-bc71-4def-a7a4-be6c75393eab"
+let cognitoUnauthRoleArn: String = "arn:aws:iam::291115927752:role/Cognito_EarthScapeUnauth_DefaultRole"
+
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
@@ -16,6 +20,22 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
         // Override point for customization after application launch.
+        
+        let credentialsProvider = AWSCognitoCredentialsProvider.credentialsWithRegionType(
+            AWSRegionType.USEast1,
+            accountId: cognitoAccountId,
+            identityPoolId: identityPoolId,
+            unauthRoleArn: cognitoUnauthRoleArn,
+            authRoleArn: nil
+        )
+        
+        let serviceConfiguration = AWSServiceConfiguration(
+            region: AWSRegionType.USEast1,
+            credentialsProvider:credentialsProvider
+        )
+        
+        AWSServiceManager.defaultServiceManager().setDefaultServiceConfiguration(serviceConfiguration)
+        
         return true
     }
 

@@ -13,6 +13,32 @@
 		98B096B61A672CA5005763F6 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 98B096B51A672CA5005763F6 /* Images.xcassets */; };
 		98B096B91A672CA5005763F6 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 98B096B71A672CA5005763F6 /* LaunchScreen.xib */; };
 		98B096C51A672CA5005763F6 /* DEyeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98B096C41A672CA5005763F6 /* DEyeTests.swift */; };
+		98B096CF1A672D83005763F6 /* AWSiOSSDKv2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 98B096CE1A672D83005763F6 /* AWSiOSSDKv2.framework */; settings = {ATTRIBUTES = (Required, ); }; };
+		98B096D71A672E06005763F6 /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 98B096D01A672E06005763F6 /* Bolts.framework */; };
+		98B096D81A672E06005763F6 /* GZIP.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 98B096D11A672E06005763F6 /* GZIP.framework */; };
+		98B096D91A672E06005763F6 /* Mantle.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 98B096D21A672E06005763F6 /* Mantle.framework */; };
+		98B096DA1A672E06005763F6 /* Reachability.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 98B096D31A672E06005763F6 /* Reachability.framework */; };
+		98B096DB1A672E06005763F6 /* TMCache.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 98B096D41A672E06005763F6 /* TMCache.framework */; };
+		98B096DC1A672E06005763F6 /* UICKeyChainStore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 98B096D51A672E06005763F6 /* UICKeyChainStore.framework */; };
+		98B096DD1A672E06005763F6 /* XMLDictionary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 98B096D61A672E06005763F6 /* XMLDictionary.framework */; };
+		98B096ED1A672E42005763F6 /* autoscaling-2011-01-01.json in Resources */ = {isa = PBXBuildFile; fileRef = 98B096DE1A672E42005763F6 /* autoscaling-2011-01-01.json */; };
+		98B096EE1A672E42005763F6 /* cognito-identity-2014-06-30.json in Resources */ = {isa = PBXBuildFile; fileRef = 98B096DF1A672E42005763F6 /* cognito-identity-2014-06-30.json */; };
+		98B096EF1A672E42005763F6 /* css-2014-06-30.json in Resources */ = {isa = PBXBuildFile; fileRef = 98B096E01A672E42005763F6 /* css-2014-06-30.json */; };
+		98B096F01A672E42005763F6 /* dynamodb-2012-08-10.json in Resources */ = {isa = PBXBuildFile; fileRef = 98B096E11A672E42005763F6 /* dynamodb-2012-08-10.json */; };
+		98B096F11A672E42005763F6 /* ec2-2014-09-01.json in Resources */ = {isa = PBXBuildFile; fileRef = 98B096E21A672E42005763F6 /* ec2-2014-09-01.json */; };
+		98B096F21A672E42005763F6 /* elasticloadbalancing-2012-06-01.json in Resources */ = {isa = PBXBuildFile; fileRef = 98B096E31A672E42005763F6 /* elasticloadbalancing-2012-06-01.json */; };
+		98B096F31A672E42005763F6 /* email-2010-12-01.json in Resources */ = {isa = PBXBuildFile; fileRef = 98B096E41A672E42005763F6 /* email-2010-12-01.json */; };
+		98B096F41A672E42005763F6 /* kinesis-2013-12-02.json in Resources */ = {isa = PBXBuildFile; fileRef = 98B096E51A672E42005763F6 /* kinesis-2013-12-02.json */; };
+		98B096F51A672E42005763F6 /* mobileanalytics-2014-06-30.json in Resources */ = {isa = PBXBuildFile; fileRef = 98B096E61A672E42005763F6 /* mobileanalytics-2014-06-30.json */; };
+		98B096F61A672E42005763F6 /* monitoring-2010-08-01.json in Resources */ = {isa = PBXBuildFile; fileRef = 98B096E71A672E42005763F6 /* monitoring-2010-08-01.json */; };
+		98B096F71A672E42005763F6 /* s3-2006-03-01.json in Resources */ = {isa = PBXBuildFile; fileRef = 98B096E81A672E42005763F6 /* s3-2006-03-01.json */; };
+		98B096F81A672E42005763F6 /* sdb-2009-04-15.json in Resources */ = {isa = PBXBuildFile; fileRef = 98B096E91A672E42005763F6 /* sdb-2009-04-15.json */; };
+		98B096F91A672E42005763F6 /* sns-2010-03-31.json in Resources */ = {isa = PBXBuildFile; fileRef = 98B096EA1A672E42005763F6 /* sns-2010-03-31.json */; };
+		98B096FA1A672E42005763F6 /* sqs-2012-11-05.json in Resources */ = {isa = PBXBuildFile; fileRef = 98B096EB1A672E42005763F6 /* sqs-2012-11-05.json */; };
+		98B096FB1A672E42005763F6 /* sts-2011-06-15.json in Resources */ = {isa = PBXBuildFile; fileRef = 98B096EC1A672E42005763F6 /* sts-2011-06-15.json */; };
+		98B096FD1A672E88005763F6 /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 98B096FC1A672E88005763F6 /* libsqlite3.dylib */; };
+		98B096FF1A672E90005763F6 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 98B096FE1A672E90005763F6 /* libz.dylib */; };
+		98B097021A67347B005763F6 /* AWSCognitoSync.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 98B097011A67347B005763F6 /* AWSCognitoSync.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +62,33 @@
 		98B096BE1A672CA5005763F6 /* DEyeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DEyeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		98B096C31A672CA5005763F6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		98B096C41A672CA5005763F6 /* DEyeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DEyeTests.swift; sourceTree = "<group>"; };
+		98B096CE1A672D83005763F6 /* AWSiOSSDKv2.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AWSiOSSDKv2.framework; sourceTree = "<group>"; };
+		98B096D01A672E06005763F6 /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Bolts.framework; sourceTree = "<group>"; };
+		98B096D11A672E06005763F6 /* GZIP.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GZIP.framework; sourceTree = "<group>"; };
+		98B096D21A672E06005763F6 /* Mantle.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Mantle.framework; sourceTree = "<group>"; };
+		98B096D31A672E06005763F6 /* Reachability.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Reachability.framework; sourceTree = "<group>"; };
+		98B096D41A672E06005763F6 /* TMCache.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = TMCache.framework; sourceTree = "<group>"; };
+		98B096D51A672E06005763F6 /* UICKeyChainStore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = UICKeyChainStore.framework; sourceTree = "<group>"; };
+		98B096D61A672E06005763F6 /* XMLDictionary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = XMLDictionary.framework; sourceTree = "<group>"; };
+		98B096DE1A672E42005763F6 /* autoscaling-2011-01-01.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "autoscaling-2011-01-01.json"; sourceTree = "<group>"; };
+		98B096DF1A672E42005763F6 /* cognito-identity-2014-06-30.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "cognito-identity-2014-06-30.json"; sourceTree = "<group>"; };
+		98B096E01A672E42005763F6 /* css-2014-06-30.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "css-2014-06-30.json"; sourceTree = "<group>"; };
+		98B096E11A672E42005763F6 /* dynamodb-2012-08-10.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "dynamodb-2012-08-10.json"; sourceTree = "<group>"; };
+		98B096E21A672E42005763F6 /* ec2-2014-09-01.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "ec2-2014-09-01.json"; sourceTree = "<group>"; };
+		98B096E31A672E42005763F6 /* elasticloadbalancing-2012-06-01.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "elasticloadbalancing-2012-06-01.json"; sourceTree = "<group>"; };
+		98B096E41A672E42005763F6 /* email-2010-12-01.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "email-2010-12-01.json"; sourceTree = "<group>"; };
+		98B096E51A672E42005763F6 /* kinesis-2013-12-02.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "kinesis-2013-12-02.json"; sourceTree = "<group>"; };
+		98B096E61A672E42005763F6 /* mobileanalytics-2014-06-30.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "mobileanalytics-2014-06-30.json"; sourceTree = "<group>"; };
+		98B096E71A672E42005763F6 /* monitoring-2010-08-01.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "monitoring-2010-08-01.json"; sourceTree = "<group>"; };
+		98B096E81A672E42005763F6 /* s3-2006-03-01.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "s3-2006-03-01.json"; sourceTree = "<group>"; };
+		98B096E91A672E42005763F6 /* sdb-2009-04-15.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "sdb-2009-04-15.json"; sourceTree = "<group>"; };
+		98B096EA1A672E42005763F6 /* sns-2010-03-31.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "sns-2010-03-31.json"; sourceTree = "<group>"; };
+		98B096EB1A672E42005763F6 /* sqs-2012-11-05.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "sqs-2012-11-05.json"; sourceTree = "<group>"; };
+		98B096EC1A672E42005763F6 /* sts-2011-06-15.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "sts-2011-06-15.json"; sourceTree = "<group>"; };
+		98B096FC1A672E88005763F6 /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
+		98B096FE1A672E90005763F6 /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
+		98B097001A672EE1005763F6 /* DEye-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DEye-Bridging-Header.h"; sourceTree = "<group>"; };
+		98B097011A67347B005763F6 /* AWSCognitoSync.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AWSCognitoSync.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +96,17 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				98B096FF1A672E90005763F6 /* libz.dylib in Frameworks */,
+				98B096FD1A672E88005763F6 /* libsqlite3.dylib in Frameworks */,
+				98B097021A67347B005763F6 /* AWSCognitoSync.framework in Frameworks */,
+				98B096CF1A672D83005763F6 /* AWSiOSSDKv2.framework in Frameworks */,
+				98B096D91A672E06005763F6 /* Mantle.framework in Frameworks */,
+				98B096DD1A672E06005763F6 /* XMLDictionary.framework in Frameworks */,
+				98B096DB1A672E06005763F6 /* TMCache.framework in Frameworks */,
+				98B096DC1A672E06005763F6 /* UICKeyChainStore.framework in Frameworks */,
+				98B096DA1A672E06005763F6 /* Reachability.framework in Frameworks */,
+				98B096D81A672E06005763F6 /* GZIP.framework in Frameworks */,
+				98B096D71A672E06005763F6 /* Bolts.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -59,6 +123,33 @@
 		98B096A01A672CA5005763F6 = {
 			isa = PBXGroup;
 			children = (
+				98B097001A672EE1005763F6 /* DEye-Bridging-Header.h */,
+				98B096FE1A672E90005763F6 /* libz.dylib */,
+				98B096FC1A672E88005763F6 /* libsqlite3.dylib */,
+				98B096DE1A672E42005763F6 /* autoscaling-2011-01-01.json */,
+				98B096DF1A672E42005763F6 /* cognito-identity-2014-06-30.json */,
+				98B096E01A672E42005763F6 /* css-2014-06-30.json */,
+				98B096E11A672E42005763F6 /* dynamodb-2012-08-10.json */,
+				98B096E21A672E42005763F6 /* ec2-2014-09-01.json */,
+				98B096E31A672E42005763F6 /* elasticloadbalancing-2012-06-01.json */,
+				98B096E41A672E42005763F6 /* email-2010-12-01.json */,
+				98B096E51A672E42005763F6 /* kinesis-2013-12-02.json */,
+				98B096E61A672E42005763F6 /* mobileanalytics-2014-06-30.json */,
+				98B096E71A672E42005763F6 /* monitoring-2010-08-01.json */,
+				98B096E81A672E42005763F6 /* s3-2006-03-01.json */,
+				98B096E91A672E42005763F6 /* sdb-2009-04-15.json */,
+				98B096EA1A672E42005763F6 /* sns-2010-03-31.json */,
+				98B096EB1A672E42005763F6 /* sqs-2012-11-05.json */,
+				98B096EC1A672E42005763F6 /* sts-2011-06-15.json */,
+				98B097011A67347B005763F6 /* AWSCognitoSync.framework */,
+				98B096CE1A672D83005763F6 /* AWSiOSSDKv2.framework */,
+				98B096D01A672E06005763F6 /* Bolts.framework */,
+				98B096D11A672E06005763F6 /* GZIP.framework */,
+				98B096D21A672E06005763F6 /* Mantle.framework */,
+				98B096D31A672E06005763F6 /* Reachability.framework */,
+				98B096D41A672E06005763F6 /* TMCache.framework */,
+				98B096D51A672E06005763F6 /* UICKeyChainStore.framework */,
+				98B096D61A672E06005763F6 /* XMLDictionary.framework */,
 				98B096AB1A672CA5005763F6 /* DEye */,
 				98B096C11A672CA5005763F6 /* DEyeTests */,
 				98B096AA1A672CA5005763F6 /* Products */,
@@ -192,9 +283,24 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				98B096F91A672E42005763F6 /* sns-2010-03-31.json in Resources */,
 				98B096B41A672CA5005763F6 /* Main.storyboard in Resources */,
+				98B096F21A672E42005763F6 /* elasticloadbalancing-2012-06-01.json in Resources */,
+				98B096F51A672E42005763F6 /* mobileanalytics-2014-06-30.json in Resources */,
+				98B096EE1A672E42005763F6 /* cognito-identity-2014-06-30.json in Resources */,
+				98B096F31A672E42005763F6 /* email-2010-12-01.json in Resources */,
+				98B096FB1A672E42005763F6 /* sts-2011-06-15.json in Resources */,
+				98B096F41A672E42005763F6 /* kinesis-2013-12-02.json in Resources */,
+				98B096FA1A672E42005763F6 /* sqs-2012-11-05.json in Resources */,
 				98B096B91A672CA5005763F6 /* LaunchScreen.xib in Resources */,
+				98B096F71A672E42005763F6 /* s3-2006-03-01.json in Resources */,
+				98B096ED1A672E42005763F6 /* autoscaling-2011-01-01.json in Resources */,
+				98B096F81A672E42005763F6 /* sdb-2009-04-15.json in Resources */,
 				98B096B61A672CA5005763F6 /* Images.xcassets in Resources */,
+				98B096F11A672E42005763F6 /* ec2-2014-09-01.json in Resources */,
+				98B096EF1A672E42005763F6 /* css-2014-06-30.json in Resources */,
+				98B096F61A672E42005763F6 /* monitoring-2010-08-01.json in Resources */,
+				98B096F01A672E42005763F6 /* dynamodb-2012-08-10.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -338,9 +444,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = DEye/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "DEye-Bridging-Header.h";
 			};
 			name = Debug;
 		};
@@ -348,9 +459,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = DEye/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "DEye-Bridging-Header.h";
 			};
 			name = Release;
 		};
